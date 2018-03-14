@@ -10,11 +10,14 @@ class SurveyNew extends Component {
 	renderContent() {
 		if (this.state.showFormReview) {
 			return (
-				<SurveyFormReview
-					onCancel={() => {
-						this.setState({ showFormReview: false });
-					}}
-				/>
+				<div className="container">
+					<h3>Survey Preview</h3>
+					<SurveyFormReview
+						onCancel={() => {
+							this.setState({ showFormReview: false });
+						}}
+					/>
+				</div>
 			);
 		}
 		return (
