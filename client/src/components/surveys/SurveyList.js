@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-dom';
+
 import { fetchSurveys } from '../../actions';
 
 class SurveyList extends Component {
@@ -29,6 +31,19 @@ class SurveyList extends Component {
 	}
 
 	render() {
+		if (this.props.surveys.length === 0) {
+			return (
+				<div className="container" style={{ textAlign: 'center' }}>
+					<p>You don't have any survey</p>
+					<Link
+						className="waves-effect waves-light btn"
+						to="/surveys/new"
+					>
+						Create your first survey
+					</Link>
+				</div>
+			);
+		}
 		return <div>{this.renderSurveys()}</div>;
 	}
 }

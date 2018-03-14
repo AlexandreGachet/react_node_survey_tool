@@ -18,7 +18,8 @@ class SurveyNew extends Component {
 			);
 		}
 		return (
-			<div>
+			<div className="container">
+				<h3>Create a Survey</h3>
 				<SurveyForm
 					onSurveySubmit={() =>
 						this.setState({ showFormReview: true })
