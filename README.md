@@ -4,6 +4,8 @@
 
 (Coming soon ....)
 
+Wanna test it ? This is [right here](https://serene-peak-17459.herokuapp.com/).
+
 ## Setup
 
 ### Installation
