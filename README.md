@@ -20,6 +20,11 @@ To enable Google Authentication, you will need to create an Google Plus API on [
 
 This will generate the Client ID and Client Secret that you will need to provide in your environment variables list.
 
+Do not forget to provide the following information:
+
+*   Allowed JavaScript Origins: `http://localhost:5000`
+*   Authorized redirection URI: `http://localhost:5000/auth/google/callback` and `http://localhost:3000/auth/google/callback`
+
 ### Stripe
 
 To enable free test payments, you can create an account for free on [Stripe](https://dashboard.stripe.com).
