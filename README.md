@@ -2,7 +2,7 @@
 
 ## Demo
 
-(Coming soon ....)
+![demo](https://user-images.githubusercontent.com/1861212/37477584-506b9e98-2878-11e8-9e8e-b7c3d2cc1551.gif)
 
 Wanna test it ? This is [right here](https://serene-peak-17459.herokuapp.com/).
 
